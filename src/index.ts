@@ -80,4 +80,4 @@ function modifyNumberInString(input: string): string {
   }
 }
 
-client.login('').then(r => console.log());
+client.login(process.env.DISCORD_TOKEN).then(r => console.log());
