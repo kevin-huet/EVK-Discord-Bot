@@ -80,4 +80,4 @@ function modifyNumberInString(input: string): string {
   }
 }
 
-client.login('NDQ2MjgyODE2MDQ1NzExMzYw.G03tPI.leg8-InoD5rsCZHAm3NTX1jOF9wW7Swo2mVytA').then(r => console.log());
+client.login('').then(r => console.log());
