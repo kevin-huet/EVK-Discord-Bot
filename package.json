@@ -12,5 +12,8 @@
   "dependencies": {
     "@sapphire/framework": "^4.7.2",
     "discord.js": "^14.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
