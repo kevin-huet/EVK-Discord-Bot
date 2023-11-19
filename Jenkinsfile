@@ -9,10 +9,6 @@ pipeline {
     tools {nodejs "node"}
 
     stages {
-        stage('Clone Git Repository') {
-            steps {
-            }
-        }
         stage('Install Dependencies') {
             steps {
                 script {
@@ -29,6 +25,13 @@ pipeline {
                     sh "cd $PROJECT_DIR && npm run build"
                 }
             }
+        }
+
+        stage('Tests') {
+        }
+
+        stage('Coding style') {
+
         }
 
         stage('Deploy') {
