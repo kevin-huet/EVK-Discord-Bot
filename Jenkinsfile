@@ -31,13 +31,6 @@ pipeline {
             }
         }
 
-        stage('Tests') {
-        }
-
-        stage('Coding style') {
-
-        }
-
         stage('Deploy') {
             steps {
                 script {
